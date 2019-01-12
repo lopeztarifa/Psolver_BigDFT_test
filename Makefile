@@ -13,9 +13,9 @@ EXE = Test_Psolver_BigDFT.x
 #
 FC = mpif90 
 #
-FCFLAGS = -O2 -L/Users/Pablo/Programs/lapack-3.4.2-gfortran/lib -llapack -lblas \
-              -I/Users/Pablo/Programs/bigdft-1.8.1/build_solver/install/include \
-              -L/Users/Pablo/Programs/bigdft-1.8.1/build_solver/install/lib \
+FCFLAGS = -O2 -L/userdefined/lapack-3.4.2-gfortran/lib -llapack -lblas \
+              -I/userdefined/bigdft-1.8.1/build_solver/install/include \
+              -L/userdefined/bigdft-1.8.1/build_solver/install/lib \
               -lPSolver-1 -lfutile-1 -framework Accelerate -lyaml -ldl
 #
 #
