@@ -1,9 +1,9 @@
 Program Test_Psolver_BigDFT 
 !#####################################################################!
 !                                                                     !
-! This stupid program reads an external rho.dat density and cuts it   !
-! into two pieces according to a XYZcut in a given axis (only one axis! 
-! at once!) OR nullify values up/down to a XYZzero value in a given   ! 
+! This program reads an external rho.dat density and cuts it          !
+! into two pieces according to a XYZcut given in one axis.            ! 
+! It can also nullify values up/down to a XYZzero value in a given    ! 
 ! axis.                                                               ! 
 !                                                                     !
 ! Remember: if cut is done, two smaller boxes are generated, if nulli-!
