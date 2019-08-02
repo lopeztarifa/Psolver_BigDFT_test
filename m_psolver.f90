@@ -1,7 +1,7 @@
 module psolver_wrapper  
 !
 !######################################################################!
-! Module taha gahters all utilities to copy and write data.            !
+! Module that gathers all utilities to copy and write data.            !
 !######################################################################!
 ! PLT@CFM(2018)                                                        !
 !######################################################################!
